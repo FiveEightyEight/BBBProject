@@ -87,15 +87,24 @@
 /* Toobar Style */
 
 .toolbar-box {
-    height: 29px;
+    height: 27px;
 
-    background-color: rgba(41, 47, 57, 0.288);
+    background-color: rgba(41, 47, 57, 0.157);
 
 }
 
 .toolbar-img {
     height: auto;
-    width: 60px;
+    width: 18px;
+}
+
+.toolbar-right {
+    float: right;
+}
+
+.toolbar-img-right {
+    height: 20px;
+    width: 20px;
 }
 
 .toolitem {}
@@ -126,6 +135,10 @@
 .toolbar-dropdown-item{
     /* position: fixed; */
     /* left: 0%; */
+}
+
+.margin-zero {
+    margin: 0;
 }
 
 hr {
