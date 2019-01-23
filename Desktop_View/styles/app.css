@@ -35,9 +35,15 @@
 
 /* Descktop Style */
 
-.desktop {
-    background-size: cover;
-    height: 45rem;
+
+
+/* Dock Style */
+
+
+
+.desktop{
+    background-size:cover;
+    height:45rem;
     background-image: url('/Desktop_View/assets/images/default-wallpaper.jpg');
     background-repeat: no-repeat;
 
@@ -45,14 +51,13 @@
 
 
 
-.meme-folder {
+.meme-folder{
     margin-top: 1rem;
     text-align: center;
 }
-
-.meme-img {
-    background: rgba(255, 0, 0, 0);
-    background-image: url('/Desktop_View/assets/images/folder.png');
+.meme-img{
+    background: rgba(255, 0, 0, 0 );
+    background-image: url('/Desktop_View/assets/images/cat_folder.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 4.5rem 4.5rem;
@@ -61,13 +66,13 @@
     width: 5.2rem;
 }
 
-.meme-tag {
-    color: white;
-
+.meme-tag{
+    color:white;
+  
 
 }
 
-.test-window {
+.test-window{
     background: white;
     height: 10rem;
     width: 10rem;
@@ -77,9 +82,17 @@
 
 /* Dock Style */
 
+.dock-icons{
+height: 5rem;
+width: 5rem;
+}
 
-
-
+.dock{
+    background: rgba(255, 255, 255, 0.35);
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 5.5rem;
+}
 
 
 
